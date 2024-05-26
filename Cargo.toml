@@ -1,0 +1,15 @@
+[package]
+name = "redis-module-test-rs"
+version = "0.1.0"
+edition = "2021"
+description = "A toolkit for testing Redis modules in Rust"
+license = "BSD-3-Clause"
+readme = "README.md"
+keywords = ["redis", "test"]
+homepage = "https://github.com/ashtul/redis-module-test-rs"
+repository = "https://github.com/ashtul/redis-module-test-rs"
+
+[dependencies]
+anyhow = "1.0.51"
+redis = "0.25.3"
+redis-module = "2.0.7"
